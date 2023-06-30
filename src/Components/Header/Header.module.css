@@ -1,0 +1,18 @@
+.header {
+    position: fixed;
+    background-color: #DB4C3F;
+    
+    height: 44px;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+
+.header svg {
+    fill: white;
+}
+
+.right_actions {
+    margin-left: 20px;
+}

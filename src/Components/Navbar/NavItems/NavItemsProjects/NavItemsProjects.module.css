@@ -1,0 +1,63 @@
+.block {
+    position: relative;
+    height: 34px;
+    width: 90%;
+    border-radius: 4px;
+}
+
+.block a {
+    position: absolute;
+    width: 100%;
+    text-decoration: none;
+    height: 100%;
+}
+
+.block a:visited {
+    color: black;
+}
+
+.block a:focus {
+    color: black;
+}
+
+.flex_container {
+    display: flex;
+    margin-left: 4px;
+    padding-top: 4px;
+}
+
+.block:hover {
+    background-color: #ededed;
+}
+
+.text {
+    margin-left: 8px;
+}
+
+.point_place {
+    position: relative;
+    width: 20px;
+    padding-left: 8px;
+}
+
+.point {
+    top: 8px;
+    position: absolute;
+    background-color: #0dd431;
+    width: 9px;
+    height: 9px;
+    border-radius: 8px;
+}
+
+.action {
+    margin-left: auto;
+    opacity: 0;
+}
+
+.block:hover .action {
+    opacity: 0.6;
+}
+
+.block:hover .action:hover {
+    opacity: 1;
+}

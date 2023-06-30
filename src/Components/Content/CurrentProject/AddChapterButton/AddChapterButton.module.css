@@ -1,0 +1,31 @@
+.block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+    padding: 3px 0;
+}
+
+.block:hover {
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.border {
+    top: 50%;
+    border-top: 1px solid #DB4C3F;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.text {
+    display: inline-block;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: #FFFFFF;
+    padding: 0 6px;
+    font-weight: 700;
+    color: #DB4C3F;
+}

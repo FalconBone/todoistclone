@@ -1,0 +1,11 @@
+.addTask {
+    margin-bottom: 16px;
+}
+
+.isVisibilityHidden {
+    visibility: hidden;
+}
+
+.isDisplayNone {
+    display: none;
+}

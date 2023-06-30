@@ -1,0 +1,53 @@
+.block {
+    border: 1px solid rgba(0, 0, 0, 0.126);
+    border-radius: 6px;
+}
+
+.up {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.down {
+    border-top: 1px solid rgba(0, 0, 0, 0.126);
+}
+
+.create_actions {
+    display: flex;
+    padding: 7px 10px;    
+}
+
+.right {
+    margin-left: auto;
+    display: flex;
+}
+
+.right .item {
+    padding-left: 6px;
+}
+
+.form input, .form textarea {
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.form input:focus, .form textarea:focus  {
+    border: none;
+    outline: none;
+}
+
+.parameters_actions{
+    margin-top: 5px;
+    display: flex;
+}
+
+.parameters_actions .item {
+    margin-right: 8px;
+}
+
+.input_description {
+    font-size: 12px;
+    padding-bottom: 6px;
+}

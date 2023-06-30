@@ -1,0 +1,35 @@
+.flex_block {
+    position: fixed;
+    display: flex;
+    background-color: #ffffff;
+    width: inherit;
+    margin-left: auto;
+    padding-top: 50px;
+    margin-top: -50px;
+    padding-bottom: 8px;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.147);
+}
+
+.small {
+    transition: all 0s;
+}
+
+@media screen and (max-width: 1126px) {
+ .flex_block {
+    width: inherit;
+ }
+}
+
+.actions {
+    margin-left: auto;
+    display: flex;
+}
+
+.actions .item {
+    margin-left: 20px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+}

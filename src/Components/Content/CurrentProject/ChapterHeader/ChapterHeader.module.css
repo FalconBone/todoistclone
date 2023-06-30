@@ -1,0 +1,27 @@
+.flex_block {
+    display: flex;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.147);
+    position: relative;
+}
+
+.move_button {
+    opacity: 0;
+}
+
+.flex_block:hover .move_button {
+    opacity: 1;
+}
+
+.actions {
+    margin-left: auto;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.position_left_actions {
+    display: flex;
+    position: absolute;
+    left: -52px;
+}

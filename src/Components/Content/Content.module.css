@@ -1,0 +1,6 @@
+.content {
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 100vw;
+    transition: all 0.4s;
+}

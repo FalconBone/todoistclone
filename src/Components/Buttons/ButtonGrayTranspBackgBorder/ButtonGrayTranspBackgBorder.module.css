@@ -1,0 +1,35 @@
+.button{
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid gray;
+    cursor: pointer;
+    opacity: 0.6;
+    border-radius: 3px;
+}
+
+.button:hover {
+    opacity: 1;
+    background-color: rgba(223, 223, 223, 0.636);
+}
+
+.flex_container {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 2px 2px 2px 2px;
+}
+
+.image {
+    width: 20px;
+    height: 20px;
+    padding-top: 1px;
+}
+
+.image svg {
+    width: 18px;
+    height: 18px;
+}
+
+.text {
+    margin-left: 3px;
+}

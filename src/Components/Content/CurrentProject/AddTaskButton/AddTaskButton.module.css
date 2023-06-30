@@ -1,0 +1,47 @@
+.button{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding-top: 4px;
+}
+
+
+
+.flex_container {
+    color: gray;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 2px 2px 2px 2px;
+}
+
+.image {
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border-radius: 16px;
+}
+
+.button:hover .image {
+    background-color:#DB4C3F;
+}
+
+.image svg {
+    width: 18px;
+    height: 18px;
+    fill: #DB4C3F;
+}
+
+.button:hover .image svg {
+    fill: white;
+}
+
+.text {
+    margin-left: 8px;
+}
+
+.button:hover .flex_container{
+    color:#DB4C3F;
+}
